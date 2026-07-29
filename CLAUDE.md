@@ -17,7 +17,12 @@ AI coding agent. Follow these rules in every session.
 - Once the app is scaffolded, build and run it with `.\BuildAndRun.ps1`.
 - Prefer MVVM with `CommunityToolkit.Mvvm` (`[ObservableProperty]`, `[RelayCommand]`).
 
+## Language
+
+- Reply to the user, present plans, and write **PR titles/bodies and commit messages** in the
+  **same language as the Issue** (for example, reply in Japanese when the Issue is in Japanese).
+- Keep **code** — comments and identifiers — in **English**, regardless of the Issue language.
+
 ## Style
 
-- Write code comments and identifiers in **English**.
 - Describe *what* should work; let the agent choose *how* unless a method truly matters.
