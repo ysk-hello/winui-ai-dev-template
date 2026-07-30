@@ -12,6 +12,11 @@ AI coding agent. Follow these rules in every session.
 
 ## WinUI
 
+- **Use the WinUI Agent Plugin for WinUI 3 work.** For scaffolding, XAML/UI, build/run,
+  UI tests, code review, packaging, or migration, delegate to the **`winui:winui-dev`
+  subagent** (Task tool `subagent_type: "winui:winui-dev"`), or run the relevant `winui-*`
+  skill. Do not hand-write WinUI from general knowledge — the plugin has the correct,
+  current patterns and avoids the outdated WPF/UWP APIs general models default to.
 - Target **WinUI 3 / Windows App SDK**. Do **not** use WPF, UWP, or WinForms APIs.
 - Use `ThemeResource` for colors so the UI stays readable in Light and Dark themes.
 - Once the app is scaffolded, build and run it with `.\BuildAndRun.ps1`.
